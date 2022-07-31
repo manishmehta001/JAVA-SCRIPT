@@ -7,6 +7,6 @@
 function getsqure(x)
 {
     var result = x*x;
-    console.log("out is that", result);
+    console.log("output is that", result);
 }
 getsqure(25);
