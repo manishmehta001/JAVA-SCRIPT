@@ -1,4 +1,9 @@
-// a programe to cheack if number odd or even
+/*Assignment 2
+
+Requirements:
+Program to check if a number is odd or even*/
+
+
 // define the prompt
 const ps = require("prompt-sync");
 const prompt = ps();
