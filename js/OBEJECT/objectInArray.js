@@ -4,3 +4,4 @@ const students = [
     {"fname":"upasana", "lname":"maurya"}
 ];
 console.log(students[2].lname);
+console.log(students[2]);
