@@ -1,7 +1,7 @@
 /*Nth Fibonacci 
 Problem Statement:
 Given the value of n, find out the nth term of the fibonacci series.
-Fibonacci series is like 0,1,1,2,3,5,8,13… where the next element is always the sum of the previous two
+Fibonacci series is like 0,1,1,2,3,5,8,13… where the next element is always the  of the previous two
 elements and the first two elements are 0 and 1.
 Example-1:
 Input 5

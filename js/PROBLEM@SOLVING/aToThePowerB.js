@@ -13,12 +13,11 @@ function aToThePowerB(num,power)
     
     for(let i=1; i<=power; i++)
     { 
-    result= result*num;
+      result= result*num;
     }
-
-console.log(result);
+    console.log(result);
 }
-aToThePowerB(10,2);
 aToThePowerB(10,3);
-aToThePowerB(2,5);
-aToThePowerB(4,3);
+// aToThePowerB(10,3);
+// aToThePowerB(2,5);
+// aToThePowerB(4,3);

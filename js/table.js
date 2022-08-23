@@ -1,16 +1,13 @@
-// function printTable(n)
-// {
-//     for(let i=n; i<=n*10; i=i+n)
-//     {
-//         console.log(i);
-//     }
-// }
-// printTable(5);
-
-
-function sub(a,b)
+function printTable(n)
 {
-    var result = a-b;
-    return result;
+    for(let i=1; i<=n; i++) 
+    {
+        let table ="";
+        for(let j=i;j<=i*10; j=j+i){
+            table += j + " ";
+        }
+        console.log(table);
+    }
+    
 }
-console.log(sub(20,15));
+printTable(5);
