@@ -5,7 +5,7 @@ const ps = require("prompt-sync");
 const prompt = ps();
 var input = prompt(" enter the input ");
 
-if(input === 1 || input === "y" || input === "yes")
+if(input == 1 || input === "y" || input === "yes")
 {
     console.log("continued..");
 }
