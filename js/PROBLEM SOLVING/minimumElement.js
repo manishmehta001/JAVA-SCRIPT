@@ -31,3 +31,22 @@ function findMinMax(array){
     console.log("Max: "+max);
 }
 findMinMax([3,2,1,8]);
+//======================================================================
+// let arr = [-1, 2, 3, -4, -5, 69, 8];
+
+function minMax2(arr, i, min, max) {
+  // base case
+  if (i == arr.length - 1) {
+    // console.log(arr, i, min, max);
+    return min + " mm " + max;
+  }
+  if (arr[i] > arr[i + 1]) {
+    max = arr[i];
+  }
+
+  if (arr[i] < arr[i + 1]) {
+    min = arr[i];
+  }
+  return minMax2(arr, i + 1, min, max);
+}
+console.log(minMax2([-1, 2, 3, -4, -5, 69, -11], 0, arr[0], arr[0]));

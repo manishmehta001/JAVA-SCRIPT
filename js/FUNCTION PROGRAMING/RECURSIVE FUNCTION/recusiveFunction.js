@@ -11,3 +11,15 @@ function GetPower(num,power){
     }
 }
 console.log("result is: ",+ GetPower(4,3));
+
+function printNumber(n){
+    if(n==0){
+        return;
+    }
+     if(n%2!=0){
+         console.log(n);
+     }
+    return printNumber(n-1);
+
+}
+printNumber(10);

@@ -4,7 +4,7 @@ const edTechObj =
 {
     name : "relevel",
 }
-//delete edTechObj.name;//using delete any properties of object.
+delete edTechObj.name;//using delete any properties of object.
 Object.seal(edTechObj);//it is allow to only upadtion of exsiting properties not for add or deleting any new or existing properties.
 edTechObj.website = "www.relevel.com";// adding new object
 edTechObj.name = "unacadmy"// change the obejct

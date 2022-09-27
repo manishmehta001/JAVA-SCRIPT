@@ -9,6 +9,12 @@ otput-
    4 5 6
     5 6
      6
+     6
+    6 5
+   6 5 4
+  6 5 4 3
+ 6 5 4 3 2
+6 5 4 3 2 1
 Approach –
 Intuition - Since, it is printing numbers N times, it's obvious that we need to
 use the loop concept here. Now, based on the pattern in the problem, we
@@ -31,6 +37,17 @@ function ReversePiramid(num){
             line = line + k + " ";
         }
         console.log(line);
+    }
+    for(let i=num; i>=1; i--){
+        let line = "";
+        for(let j=i; j>1; j--){
+            line = line + " ";
+        }
+        for(let k=num; k>=i; k--){
+            line = line + k + " ";
+        }
+        console.log(line);
+
     }
 
 }

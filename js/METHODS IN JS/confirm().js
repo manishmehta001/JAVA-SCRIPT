@@ -4,9 +4,8 @@
 The confirm() method returns true if the user clicked "OK", otherwise false . */
 
 let responce = confirm("are you sure, want to delte");
-if(responce){
-    document.write('deleted');
-}
-else{
-    document.write('not deleted');
+if (responce) {
+  document.write("deleted");
+} else {
+  document.write("not deleted");
 }

@@ -3,7 +3,6 @@ function printMessage(){
     var x ="hello";
     console.log(x);
     {
-
     let xs = "hi";
     console.log(xs);
     }

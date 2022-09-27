@@ -25,3 +25,4 @@ function findNthPositioninFibSeries(n){
     }
     console.log(series[n-1]);
 }
+findNthPositioninFibSeries(8);

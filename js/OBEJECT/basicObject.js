@@ -1,3 +1,4 @@
+/* how to define an object and access the object */
 var manishData = 
 {
     fname : "manish",

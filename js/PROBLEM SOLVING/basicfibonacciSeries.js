@@ -10,16 +10,14 @@ Example-2:
 Input 24
 Output 28657*/
 
-
 var a = 0;
 var b = 1;
 console.log(a);
 console.log(b);
 var c;
-for(let i=2;i<=10;i++){
-  c= a+b;
+for (let i = 2; i <= 10; i++) {
+  c = a + b;
   console.log(c);
-  a=b;   
-  b=c;
- 
+  a = b;
+  b = c;
 }
