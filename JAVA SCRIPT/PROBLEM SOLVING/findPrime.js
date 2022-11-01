@@ -11,17 +11,20 @@ Steps -
 3) If yes, print prime number */
 
 
-function findPrimtNumbers(n){
+function findPrimtNumbers(n) {
 
-    for(let i=2; i<=n; i++){ 
-        for(let j=2; j<=i; j++){ 
-            if(j==i){
+    for (let i = 2; i <= n; i++) {
+        for (let j = 2; j <= i; j++) {
+            if (j == i) {
                 console.log(i);
             }
-            if(i%j==0){
+            if (i % j == 0) {
                 break;
             }
-            
+
+
+
+
         }
     }
 }

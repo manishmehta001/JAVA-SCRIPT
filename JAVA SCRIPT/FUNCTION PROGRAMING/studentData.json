@@ -1,0 +1,17 @@
+[
+  {
+    "name": "kumar sanu",
+    "age": 25,
+    "city": "kolkata"
+  },
+  {
+    "name": "udit narayan",
+    "age": 29,
+    "city": "delhi"
+  },
+  {
+    "name": "sonu nigam",
+    "age": 28,
+    "city": "panjab"
+  }
+]
